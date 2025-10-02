@@ -1,0 +1,13 @@
+package part4.loops;
+
+import java.util.Scanner;
+public class Ex14PrintEachCharacter {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Nhập tên của bạn: ");
+        String ten = sc.nextLine();
+        for (int i = 0; i < ten.length(); i++) {
+            System.out.println(ten.charAt(i));
+        }
+    }
+}
